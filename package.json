@@ -1,0 +1,24 @@
+{
+  "name": "mkv-automata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Use npm run render|rip\" && exit 0",
+    "render": "node --harmony-async-await render.js | bunyan",
+    "rip": "node --harmony-async-await rip.js | bunyan",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bernhard@trigo.at",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "bylog": "^0.3.5",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "mkdirp": "^0.5.1"
+  }
+}
